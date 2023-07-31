@@ -27,7 +27,7 @@ function App() {
       <Routes>
       <Route path="/blue" element={ <Blue/> } />
       <Route path="/red" element={ <Red/> } />
-      <Route path="home" element={ <Home/> } />
+      <Route path="/home" element={ <Home/> } />
       </Routes> 
 
    </div>
