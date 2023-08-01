@@ -1,10 +1,16 @@
 import  { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
-    <div id="navbar">
-    <Link to="/blue">Blue</Link>
-    <Link to="/red">Red</Link>
-    <Link to="/home">Home</Link>
+        <div id="navbar">
+        <li>
+         <Link to="/blue">Blue</Link>
+         </li>
+         <li>
+          <Link to="/red">Red</Link>
+          </li>
+         <li>
+         <Link to="/home">Home</Link>
+        </li>
        </div>
     );
   }
